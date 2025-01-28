@@ -38,7 +38,7 @@ body {
 }
 
 .one {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 .one > img {
@@ -54,7 +54,7 @@ body {
 }
 
 .three {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .four .text-box {
@@ -86,7 +86,7 @@ body {
 }
 
 .five p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -99,7 +99,7 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .idea-5 span,
@@ -109,7 +109,7 @@ body {
 }
 
 .idea-6 span {
-  font-size: 15rem;
+  font-size: 2rem;
 }
 
 .six {
@@ -235,7 +235,8 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 47%;
+    top: -90px;
   }
 }
 
@@ -276,12 +277,13 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 3rem;
   }
 
   .six .hat {
     width: 50px;
-    top: -20px;
+    top: -50px;
+    left: 160px;
   }
 
   .wish-hbd {
